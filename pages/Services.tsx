@@ -6,10 +6,10 @@ const AgencyServices: React.FC = () => {
     return <div className="bg-white flex flex-col text-black text-center justify-center items-center">
         <div className="py-16"><h1 className="text-4xl font-medium">Services</h1></div>
 
-        <div className="flex flex-col mx-auto text-center sm:px-32 w-full lg:w-1/2 justify-center items-center">
-            <div className="flex flex-row mb-20 jusitfy-center mx-auto">
-                <div className="flex mx-auto mb-5 justify-center sm:w-56 h-32">
-                    <img className = "sm:mr-10" alt = "Facebook" src = "/fb.png"/>
+        <div className="flex flex-col mx-auto text-center sm:px-32 justify-center items-center">
+            <div className="flex flex-row justify-center md:w-full lg:w-1/2 mx-auto mb-10">
+                <div className="flex mx-auto mb-5 justify-center mr-10 sm:w-56 h-32">
+                    <img className = "sm:w-56 h-32" alt = "Facebook" src = "/fb.png"/>
                 </div>
 
                 <div className="flex flex-col text-center sm:text-left mx-auto justify-center sm:w-2/3">
