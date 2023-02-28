@@ -7,7 +7,7 @@ const Intro: React.FC = () => {
             
             <section className = "sm:p-48 flex flex-col justify-center items-center md:flex-row mt-5 p-10">
             <div className = "mb-4 sm:m-auto text-black text-center md:text-left rounded-xl md:w-1/2 text-slate-900">
-                <h1 className = "font-medium text-5xl text-center md:text-left sm:px-10 sm:pb-4 opacity-100">
+                <h1 className = "font-medium text-5xl text-center md:text-left sm:px-10 pb-12 opacity-100">
                     Welcome to Magitech Media!
                 </h1>
                 <p className="sm:px-10 pb-5 text-2xl mb-5">We are an Agency that provides <span className="italic">social media marketing and management</span> to tech app businesses!</p>

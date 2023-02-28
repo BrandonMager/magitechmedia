@@ -8,11 +8,11 @@ const AgencyServices: React.FC = () => {
 
         <div className="flex flex-col mx-auto sm:px-32 justify-center items-center">
             
-            <div className="flex flex-row justify-center items-center md:flex-row w-full lg:w-1/2 mx-auto mb-10">
+            <div className="flex flex-row justify-center items-center md:flex-row w-full lg:w-1/2 mx-auto px-5 mb-10">
 
-                <div className="flex flex-col mb-10 mx-auto text-center w-1/2 sm:text-left md:w-2/3">
-                    <h1 className="font-medium text-2xl mb-2">Facebook Ads through Campaigns</h1>
-                    <p className="text-sm md:text-lg">With Facebook/Meta's Targeted Advertisement, videos of your apps's performances will be used along with specific constructed copywriting to intrigue the right audience for greater downloads! Facebook Pixel will also be integrated to record website visits.</p>
+                <div className="flex flex-col mb-10 mx-auto  w-1/2 sm:text-left md:w-2/3">
+                    <h1 className="font-medium md:text-2xl mb-2">Facebook Ads through Campaigns</h1>
+                    <p className="text-xs md:text-lg">With Facebook/Meta's Targeted Advertisement, videos of your apps's performances will be used along with specific constructed copywriting to intrigue the right audience for greater downloads! Facebook Pixel will also be integrated to record website visits.</p>
 
                 </div>
 
@@ -22,11 +22,11 @@ const AgencyServices: React.FC = () => {
 
             </div>
 
-            <div className="flex flex-row justify-center items-center md:flex-row w-full lg:w-1/2 mx-auto mb-10">
+            <div className="flex flex-row justify-center items-center md:flex-row w-full lg:w-1/2 px-5 mx-auto mb-10">
 
-                <div className="flex flex-col mb-10 mx-auto text-center w-1/2 sm:text-left md:w-2/3">
-                    <h1 className="font-medium text-2xl mb-2">Website Building</h1>
-                    <p className="text-sm md:text-lg">Having a responsive/user-friendly website regardless of the type of app being produced is crucial to earning consumers. We will create a clean website for the business that includes great and refined UI/UX Design, SEO, and responsiveness for greater chances for consumers to engage. The business's applications and other information will also be displayed in a organized manner.</p>
+                <div className="flex flex-col mb-10 mx-auto  w-1/2 sm:text-left md:w-2/3">
+                    <h1 className="font-medium md:text-2xl mb-2">Website Building</h1>
+                    <p className="text-xs md:text-lg">Having a responsive/user-friendly website regardless of the type of app being produced is crucial to earning consumers. We will create a clean website for the business that includes great and refined UI/UX Design, SEO, and responsiveness for greater chances for consumers to engage. The business's applications and other information will also be displayed in a organized manner.</p>
                 </div>
 
                 <div className="w-1/2 md:w-1/3 h-32 flex flex-wrap mx-auto justify-center items-center">

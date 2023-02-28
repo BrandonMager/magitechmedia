@@ -4,7 +4,7 @@ import Image from "next/image";
 const About: React.FC = () => {
     return <div className="bg-white text-black text-center justify-center items-center mx-auto flex flex-col">
         <h1 className="mb-4 sm:mb-auto text-4xl font-medium">What we do!</h1>
-        <div className="flex flex-col my-12 md:flex-row mx-auto items-center justify-center">
+        <div className="flex flex-col my-12 px-5 md:flex-row mx-auto items-center justify-center">
             <div className="sm:mx-10">
                 <ul className="list-disc text-l sm:text-2xl text-left font-medium">
                     <li className="mb-3"> <span className="text-blue-500 font-bold">Facebook</span> Advertisements</li>

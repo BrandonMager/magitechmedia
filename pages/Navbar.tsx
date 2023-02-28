@@ -10,8 +10,8 @@ const Navbar: React.FC = () => {
 
         </div>
 
-        <nav className="md:mr-auto md:ml-4 md:border-l font-medium flex flex-wrap items-center text-white text-2xl  justify-center">
-            <a href = "" className="sm:ml-10 mr-5 hover:text-black">
+        <nav className="md:mr-auto md:ml-4 md:border-l font-medium flex flex-wrap items-center text-white text-sm md:text-2xl  justify-center">
+            <a href = "" className="md:ml-10 mr-5 hover:text-black">
                 About
             </a>
             <a href = "" className="ml-5 mr-5 hover:text-black">
@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
         </nav>
 
         <div className="text-sm sm:text-xl sm:font-medium sm:text-base">
-            <a href="" className="p-2 sm:p-4 bg-white text-black hover:text-blue-500 hover:rounded-lg font-bold">Contact Us</a>
+            <a href="" className="p-2 md:p-4 bg-white text-black hover:text-blue-500 hover:rounded-lg font-bold">Contact Us</a>
         </div>
 
       
